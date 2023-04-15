@@ -1,0 +1,54 @@
+.ParentDiv{
+    background-color: aqua;
+    width: 500px;
+    height : 300px;
+    border: solid 5px black;
+    position: static;
+    margin : 100px;
+    text-align: center; 
+}
+.ParentDiv1{
+    background-color :rgb(225,0,4);
+    width : 500px;
+    height : 300px;
+    border : solid 5px black;
+    position : relative;
+    margin-left: 100px;
+    text-align : center; 
+}
+.children1{
+    background-color : chocolate;
+    width : 100px;
+    height : 100px;
+    border: solid;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.children2{
+    background-color : rgb(89, 200,28);
+    width : 100px;
+    height : 100px;
+    border : solid;
+    position : fixed;
+    top : 0;
+    left: 0;
+}
+.children3{
+    background-color : rgb(220,28, 204);
+    width : 100px;
+    height : 100px;
+    border : solid;
+    position : static;
+    top :400px;
+    left : 400px; 
+}
+.children4{
+    background-color : rgb(90,21,174);
+    width : 100px;
+    height : 100px;
+    border : solid;
+    position : absolute;
+    top :0px;
+    left :  0px;
+}
